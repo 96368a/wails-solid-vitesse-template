@@ -4,6 +4,9 @@
   "outputfilename": "{{.BinaryName}}",
   "frontend:install": "pnpm install",
   "frontend:build": "pnpm build",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "assetdir": "./frontend/dist",
   "author": {
     "name": "{{.AuthorName}}",
     "email": "{{.AuthorEmail}}"

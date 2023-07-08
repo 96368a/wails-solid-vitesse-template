@@ -29,6 +29,8 @@ wails init -n my-wails-solid -t https://github.com/96368a/wails-solid-vitesse-te
   "outputfilename": "solid-vitesse",
   "frontend:install": "pnpm install", 	//更改为npm或者yarn
   "frontend:build": "pnpm build",		//这行也要同步更改
+  "frontend:dev:watcher": "pnpm dev",	//这行也要同步更改
+  "frontend:dev:serverUrl": "auto",
   "author": {
     "name": "xxxxxx",
     "email": "xxxxxx@gmail.com"
