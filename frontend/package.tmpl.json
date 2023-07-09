@@ -35,6 +35,11 @@
     "vitest": "^0.33.0"
   },
   "eslintConfig": {
+    "ignorePatterns": [
+      "**/wailsjs/*/*.js"
+    ],
     "extends": "@antfu"
-  }
-,"name":"{{.ProjectName}}","author":"{{.AuthorName}}"}
+  },
+  "name": "{{.ProjectName}}",
+  "author": "{{.AuthorName}}"
+}
